@@ -19,5 +19,5 @@ func hello(w http.ResponseWriter, r *http.Request) {
 	}
 
 	//fmt.Fprintf(w, "Hello, %v!", name)
-  fmt.Fprintf(w, "\n\n<html><head></head>Hello, %v!<body></body></html>\n", name)
+  fmt.Fprintf(w, "\n\n<html><head></head>Hello, %v! Goodbye!<body></body></html>\n", name)
 }
