@@ -11,7 +11,7 @@ ADD . /go/src/github.com/anhowe/go-scratch
 RUN go install github.com/anhowe/go-scratch
 
 # Run the outyet command by default when the container starts.
-ENTRYPOINT /go/bin/simpleweb
+ENTRYPOINT /go/bin/go-scratch
 
 # Document that the service listens on port 4001.
 EXPOSE 4001
